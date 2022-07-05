@@ -1,0 +1,107 @@
+body {
+    width: 90%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://wallpapercave.com/wp/ab7sX4F.jpg");
+    font-family: 'Open Sans',sans-serif;
+}
+
+header:nth-child(1) {
+    background-color: yellow;
+}
+
+figure {
+    float: right;
+}
+
+blockquote {
+    margin: auto;
+    width: 50%;
+    font-size: 160%;
+    background-color: lightgray;
+    border-width: 3px;
+    border-left-style: groove;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-color: firebrick;
+}
+
+q {
+    font-style: italic;
+}
+
+.farmer {
+    quotes: none;
+    border-left-style: groove;
+    border-color: red;
+}
+
+.neighbors {
+    quotes: none;
+    border-left-style: groove;
+    border-color: lightgreen;
+
+}
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+
+p:first-of-type {
+    font-weight: bold;
+    
+}
+
+li {
+    border-style: groove;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+li:first-child {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/bien.png?token=GHSAT0AAAAAABVW3EYPOGOVQFHHLY7HOSYGYWEI3VA);
+}
+
+li:nth-child(2) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/mal.png?token=GHSAT0AAAAAABVW3EYPMRU37DRPZJ4Y3HG6YWEHKUA);
+}
+
+li:nth-child(3) {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Wilson-1/master/Assets/chat.png?token=GHSAT0AAAAAABVW3EYPT56PTENXIQQU3OFUYWEHMSA);
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+p {
+    font-family: serif;
+    letter-spacing: 2px;
+    font-size: large;
+    color: darkblue;
+    
+}
+h2{
+    clear: both;
+}
+
+a {
+    color: hotpink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
